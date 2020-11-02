@@ -1,0 +1,8 @@
+{
+    "input_path": "/home/oxygen/workspace/code/deeplearn-ui/dataset/Road qualtiy",
+    "output_path": "/home/oxygen/workspace/code/deeplearn-ui/projects/Road qualtiy",
+    "pre_trained_wts": "/home/oxygen/workspace/code/deeplearn-ui/pre_trained_weights",
+    "project_name": "Road qualtiy",
+    "sub_folder_name": "road qualtiy_Task2",
+    "sub_folder_path": "/home/oxygen/workspace/code/deeplearn-ui/projects/Road qualtiy/road qualtiy_Task2"
+}

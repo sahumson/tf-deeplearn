@@ -1,0 +1,100 @@
+{
+	"id": "3f5ff51d-c04c-0a24-7b33-c6aaacc0e62e",
+	"name": "App",
+	"description": "",
+	"order": [
+		"6b956f12-fd44-bad5-a073-872215d39fff",
+		"0d821246-5844-0250-1fb5-da5532ad3d4a",
+		"6b382c54-d9bb-3131-4b3d-e3eb4c79b8a2"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1595141244681,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0d821246-5844-0250-1fb5-da5532ad3d4a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:5000/extractd/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595178562886,
+			"name": "extrat data",
+			"description": "",
+			"collectionId": "3f5ff51d-c04c-0a24-7b33-c6aaacc0e62e",
+			"responses": [],
+			"rawModeData": "{\n\t\"data_directory\": \"/home/oxygen/workspace/code/deeplearn-ui/frames\",\n\t\"train\": 70,\n\t\"test\": 30\n}"
+		},
+		{
+			"id": "6b382c54-d9bb-3131-4b3d-e3eb4c79b8a2",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:5000/project/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3f5ff51d-c04c-0a24-7b33-c6aaacc0e62e",
+			"data": null,
+			"dataMode": "params",
+			"name": "get project",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595178854845,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6b956f12-fd44-bad5-a073-872215d39fff",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:5000/project",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3f5ff51d-c04c-0a24-7b33-c6aaacc0e62e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "create project",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595164288273,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\": \"Road qualtiy\",\n\t\"description\": \"Mask rcnn\",\n\t\"task\":\"Task1\",\n\t\"library\": \"Tensorflow\"\n}"
+		}
+	]
+}
